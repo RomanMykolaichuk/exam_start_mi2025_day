@@ -122,4 +122,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   fetchData();
   setInterval(fetchData, 30000); // Оновлення кожні 30 секунд
+  
+  console.log("it's wrong variant, should be used a new one")
 });
