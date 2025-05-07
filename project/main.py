@@ -23,7 +23,8 @@ DB_PASSWORD = "admin"     # замініть за потреби
 DB_HOST = "localhost"        # або інша адреса/хост, якщо потрібно
 DB_PORT = "5432"             # стандартний порт PostgreSQL
 
-@app.get("/data")
+
+@app.get("/data") #URL що буде надано після запуску uvicorn + /data необхідно прописати у файлі main.js
 def get_locations():
     try:
         connection = psycopg2.connect(

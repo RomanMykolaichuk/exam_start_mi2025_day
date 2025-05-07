@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const API_URL = "http://localhost:8000/data";
+  //Прописати URL з файлу main.py http://localhost:8000....
+  const API_URL = "";
+  
+  
   let map; // Глобальна змінна для карти
   
   async function fetchData() {
